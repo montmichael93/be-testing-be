@@ -8,7 +8,7 @@ import { User } from "@prisma/client";
 const app = express();
 app.use(express.json()).use(
   cors({
-    origin: ["https://be-test-fe.vercel.app/"],
+    origin: ["https://be-test-fe.vercel.app"],
   })
 );
 app.get("/", (_req, res) => {
